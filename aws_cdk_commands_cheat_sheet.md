@@ -1,5 +1,11 @@
 # CDK Commands
 
+## CDK Init App
+
+```bash
+cdk init app --language typescript [preferred_language]
+```
+
 ## CDK Bootstrap
 
 ```bash
