@@ -23,3 +23,26 @@ cdk synth (generates the cdk.out config template)
 ```bash
 cdk deploy --profile [aws_profile]
 ```
+
+## CDK List (Lists all stacks which is in local development)
+
+```bash
+cdk list --profile [aws_profile]
+```
+
+## CDK Diff (Lists the differences between local development and cloud)
+
+```bash
+cdk diff --profile [aws_profile]
+```
+
+## CDK Doctor (Checks for any issue in development environment)
+
+```bash
+cdk doctor
+```
+
+## CDK Destroy (Delete the stack from cloudformation)
+
+```bash
+cdk destroy [stack_name] --profile [profile_name]
